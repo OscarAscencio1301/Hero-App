@@ -25,7 +25,9 @@ export const authReducer = (state: InitialState, action: TypesAuth) => {
                 stateAuth: 'logout',
                 user: null
             }
-
+            case 'Auth Test':
+                return state
+    
         default:
             return state;
     }

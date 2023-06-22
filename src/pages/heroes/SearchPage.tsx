@@ -36,7 +36,7 @@ const SearchPage = () => {
       <hr />
       <div className="row">
         <div className="col-5">
-          <h4>Searching</h4>
+          <h3>Searching</h3>
           <hr />
           <form onSubmit={sendFormSearch}>
             <input type="text" placeholder="Search Hero" className="form-control" name="search" autoComplete="off" value={search} onChange={changeValues} />
@@ -44,7 +44,7 @@ const SearchPage = () => {
           </form>
         </div>
         <div className="col-7">
-          <h4>Results</h4>
+          <h4 aria-label="text-results" style={{display: `${heroes && 'none'}`}}>Results</h4>
           <hr />
 
           {

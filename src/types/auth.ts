@@ -11,3 +11,9 @@ export type TypesAuth =
     {
         type: 'Auth Logout'
     }
+
+    |
+
+    {
+        type: 'Auth Test'
+    }
